@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<%- include('./partials/header.ejs'); -%>
+<%- include('./partials/navbar.ejs'); -%>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, p {
+            text-align: center;
+        }
+
+        .project-info {
+            margin-top: 30px;
+        }
+
+        .technology {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .technology i {
+            font-size: 36px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login and Register System</h1>
+        <p>This is a login and register system project using EJS, HTML, CSS, MongoDB, Express.js, JavaScript, and API. It allows users to sign up for an account, log in, and access protected resources.</p>
+
+        <div class="project-info">
+            <h2>Project Features</h2>
+            <ul>
+                <li>User registration with username, email, and password</li>
+                <li>User authentication using email and password</li>
+                <li>Password hashing for security</li>
+                <li>MongoDB database for storing user information</li>
+                <li>Express.js for routing and handling requests</li>
+                <li>API for interacting with the backend</li>
+            </ul>
+        </div>
+
+        <div class="technology">
+            <h2>Technologies Used</h2>
+            <i class="fab fa-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt" title="CSS3"></i>
+            <i class="fab fa-js-square" title="JavaScript"></i>
+            <i class="fas fa-database" title="MongoDB"></i>
+            <i class="fab fa-node-js" title="Express.js"></i>
+        </div>
+    </div>
+</body>
+</html>
+
+<%- include('./partials/footer.ejs'); -%>
